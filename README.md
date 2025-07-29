@@ -1,18 +1,20 @@
 # Lab 5: Clustering Techniques Using DBSCAN and Hierarchical Clustering
 
 ## Course: MSCS 634  
+
 **Student Name**: Tushar Jitendrakumar Limbachiya 
+
 **Lab Assignment**: Lab 5  
 
 ---
 
-## 📌 Purpose
+##  Purpose
 
 The objective of this lab is to explore unsupervised machine learning techniques—specifically **Hierarchical Clustering** and **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**—using the **Wine dataset** from the `sklearn.datasets` library. The goal is to understand how these clustering techniques work, how to evaluate their performance, and how to visualize and interpret the results.
 
 ---
 
-## 🛠️ What This Lab Covers
+##  What This Lab Covers
 
 - Loading and preparing the Wine dataset.
 - Standardizing features to make them suitable for clustering.
@@ -28,7 +30,7 @@ The objective of this lab is to explore unsupervised machine learning techniques
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 
 - **Hierarchical Clustering** successfully grouped wine samples into clusters that closely resembled the actual wine classes when visualized via PCA.
 - **DBSCAN** was able to identify dense regions and noise but required careful parameter tuning (`eps` and `min_samples`) to produce meaningful clusters.
@@ -37,7 +39,7 @@ The objective of this lab is to explore unsupervised machine learning techniques
 
 ---
 
-## ⚖️ Comparison of Techniques
+##  Comparison of Techniques
 
 | Technique               | Strengths                                                                 | Weaknesses                                                        |
 |------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------|
@@ -46,7 +48,7 @@ The objective of this lab is to explore unsupervised machine learning techniques
 
 ---
 
-## ⚠️ Challenges Faced
+##  Challenges Faced
 
 - Selecting optimal `eps` and `min_samples` values for DBSCAN took multiple iterations.
 - Visualizing high-dimensional data required dimensionality reduction (PCA).
@@ -54,7 +56,7 @@ The objective of this lab is to explore unsupervised machine learning techniques
 
 ---
 
-## ✅ Decisions Made
+##  Decisions Made
 
 - Used `StandardScaler` for feature normalization prior to clustering.
 - Applied **PCA** to reduce dimensionality to 2D for better visualization.
